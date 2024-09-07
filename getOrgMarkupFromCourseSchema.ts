@@ -1,6 +1,5 @@
 // TODO: This is the hackiest part but it works. Probably should cleanup how the org markup is generated...
 export function getOrgMarkupFromCourseSchema(schema) {
-  console.log('schema: ', schema);
 
   const creators = schema.creator.map(creator => {
     return `[[${creator.url}][${creator.name}]]`;
