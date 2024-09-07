@@ -1,0 +1,7 @@
+A [[https://deno.com/][Deno]] script to download the outline for a LinkedIn Learning course and save it as an org file.
+
+* Running
+
+#+begin_src shell
+  deno run --allow-net --allow-write ./index.ts https://www.linkedin.com/learning/some-video-course
+#+end_src
